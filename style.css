@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); /* Importa a fonte Montserrat */
+
+* {
+    box-sizing: border-box; /* Define como a largura e altura total de um elemento é calculada. */
+}
+p {
+margin: 0;
+}
+
+:root {
+    --primary-color: #EAB308; /* Amarelo-dourado para destaque, como nos ingressos e estrelas. */
+    --secondary-color: #FFFFFF; /* Branco para textos principais, garantindo legibilidade. */
+    --tertiary-color: #A1A1AA; /* Cinza claro para textos secundários e placeholders. */
+    --bg-color: #18181B; /* Cinza bem escuro/quase preto para fundos sólidos (header, footer). */
+}
+
+body {
+    display: flex; /* Transforma o body em um container flexível */
+    flex-direction: column; /* Empilha os filhos (header, main, footer) verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe no mínimo 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão do navegador. */
+    background: var(--bg-color); /* Aplica a cor de fundo definida na variável. */
+    color: var(--secondary-color); /* Aplica a cor de texto padrão definida na variável. */
+    font-family: "Montserrat", sans-serif; /* Define a família da fonte para todo o corpo do site. */
+    background-image: url("imagen2.png"); /* Define a imagem de fundo do corpo do site. */
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível. */
+    background-position: center; /* Centraliza a imagem. */
+    background-attachment: fixed; /* Mantém a imagem fixa durante a rolagem. */
+}
+
+/* Estilização da barra de rolagem para navegadores WebKit (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg-color); /* Cor do fundo da barra (trilha) */
+    border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color); /* Cor do "polegar" (a parte que você arrasta) */
+    border-radius: 1rem; /* Bordas arredondadas */
+    border: 3px solid var(--bg-color); /* Cria um espaçamento ao redor do polegar */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color); /* Muda a cor ao passar o mouse */
+}
+
+/* Estilização para Firefox */
+body {
+    scrollbar-width: thin; /* "thin", "auto" ou "none" */
+    scrollbar-color: var(--secondary-color) var(--bg-color); /* Cor do polegar e cor da trilha */
+}
+
+header {
+    padding: 2rem 1rem; /* Define o espaçamento interno (2rem em cima/baixo, 1rem nas laterais). */
+    display: flex; /* Ativa o modo de layout flexível para os filhos diretos. */
+    align-items: center; /* Centraliza os itens filhos no eixo vertical. */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles. */
+    position: sticky; /* Faz o cabeçalho "grudar" no topo da tela ao rolar. */
+    top: 0; /* Define a posição do topo para o efeito 'sticky'. */
+    background: var(--bg-color); /* Define a cor de fundo do cabeçalho. */
+    z-index: 10; /* Garante que o cabeçalho fique acima de outros elementos. */
+    border-bottom: 1px solid var(--bg-color); /* Adiciona uma linha sutil na parte inferior. */
+    gap: 1rem; /* Cria um espaçamento de 1rem entre os itens do cabeçalho. */
+}
+
+button.btn_header {
+height: 60px;
+}
+
+.search {
+display: flex;
+align-items: center;
+}
+
+input[type="text"] {
+box-sizing: border-box;
+padding: .5rem 1rem;
+max-width: 500px;
+height: 60px;
+}
+
+.header-title {
+    display: flex;
+    /* flex-direction: column; */ 
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 1.5rem; /* Define o tamanho da fonte do título. */
+    margin: 0; /* Remove qualquer margem ao redor do título. */
+    font-weight: 500; /* Define o peso da fonte como médio. */
+    white-space: nowrap; /* Impede que o texto do título quebre em várias linhas. */
+    border: 2px solid var(--primary-color); /* Adiciona a borda */
+    padding: 0.5rem 1rem; /* Adiciona espaçamento interno */
+    border-radius: 1rem; /* Arredonda os cantos da borda */
+}
+header h2{
+    font-size: 1rem; /* Define o tamanho da fonte do título. */
+    margin: 0; /* Remove qualquer margem ao redor do título. */
+    font-weight: 300; /* Define o peso da fonte como médio. */
+    white-space: nowrap; /* Impede que o texto do título quebre em várias linhas. */
+}
+
+div input {
+    padding: 0.375rem 0.75rem; /* Define o espaçamento interno do campo de texto. */
+    border-radius: 1rem; /* Arredonda as bordas do campo. */
+    border: 1px solid var(--tertiary-color); /* Define a cor e espessura da borda. */
+    background: var(--bg-color); /* Define a cor de fundo do campo. */
+    font-family: inherit; /* Faz o campo usar a mesma fonte do elemento pai (body). */ 
+    font-size: 1.5rem; /* Define o tamanho da fonte do texto digitado. */
+    transition: all 0.2s ease; /* Cria uma animação suave para qualquer mudança de estilo. */
+    width: 30rem; /* Define a largura do campo de texto. */
+    color: var(--secondary-color); /* Define a cor do texto que o usuário digita. */
+    margin-right: .5rem; /* Adiciona um pequeno espaço à direita do campo. */
+}
+
+div input::placeholder {
+    font-size: 1.2rem; /* Define o tamanho da fonte para o texto de exemplo (placeholder). */
+    font-weight: 300; /* Define o peso da fonte do placeholder como leve. */
+    color: var(--tertiary-color); /* Define a cor do texto de exemplo. */
+}
+
+div input:focus {
+    outline: none; /* Remove a borda de foco padrão do navegador. */
+    border-color: var(--primary-color); /* Muda a cor da borda quando o campo está em foco. */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona um brilho sutil para indicar foco. */
+}
+.div_logo {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#botao-busca {
+    padding: 1rem 2rem; /* Define o espaçamento interno do botão. */
+    border-radius: 1rem; /* Arredonda as bordas do botão. */
+    border: 2px solid var(--primary-color); /* Borda na cor primária */
+    cursor: pointer; /* Transforma o cursor em uma "mãozinha" ao passar sobre o botão. */
+    font-family: inherit; /* Faz o botão usar a mesma fonte do site. */
+    font-weight: 600; /* Define o peso da fonte do texto do botão. */
+    font-size: 1rem; /* Define o tamanho da fonte do texto do botão. */
+    white-space: nowrap; /* Impede que o texto do botão quebre em várias linhas. */
+    transition: all 0.3s ease; /* Anima a mudança de cor de fundo e de texto. */
+    background-color: transparent; /* Define a cor de fundo do botão. */
+    color: var(--primary-color); /* Define a cor do texto do botão. */
+}
+
+#botao-busca:hover {
+    background-color: var(--primary-color); /* Preenche o fundo no hover. */
+    color: var(--bg-color); /* Muda a cor do texto quando o mouse está sobre o botão. */
+    box-shadow: 0 0 15px -2px hsla(45, 93%, 47%, 0.7); /* Adiciona um brilho ao redor do botão. */
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Cria um efeito de "pressionar" ao clicar no botão. */
+    box-shadow: 0 0 8px -2px hsla(45, 93%, 47%, 0.7);
+}
+#botao-watchlist {
+    margin-left: .5rem; /* Adiciona um pequeno espaço à esquerda do botão. */
+    padding: 1rem 2rem; /* Define o espaçamento interno do botão. */
+    border-radius: 1rem; /* Arredonda as bordas do botão. */
+    border: 2px solid var(--primary-color); /* Borda na cor primária */
+    background-color: transparent; /* Fundo transparente */
+    color: var(--primary-color); /* Cor do texto */
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave para todas as propriedades */
+    white-space: nowrap;
+}
+
+#botao-watchlist:hover {
+    background-color: var(--primary-color); /* Preenche o fundo no hover */
+    color: var(--bg-color); /* Muda a cor do texto */
+    box-shadow: 0 0 15px -2px hsla(45, 93%, 47%, 0.7); /* Efeito de brilho (glow) */
+}
+
+#botao-watchlist:active {
+    transform: scale(0.98); /* Efeito de clique */
+    box-shadow: 0 0 8px -2px hsla(45, 93%, 47%, 0.7); /* Brilho menor ao clicar */
+}
+
+main {
+    flex-grow: 1; /* Faz o main crescer para ocupar o espaço disponível, empurrando o footer para baixo */
+    max-width: 80rem; /* Define a largura máxima para o conteúdo principal. */
+    margin: 0 auto; /* Centraliza o conteúdo principal na página. */
+    margin-top: 2rem; /* Adiciona um espaço no topo, abaixo do cabeçalho. */
+    padding-bottom: 2rem; /* Adiciona espaço no final para não colar no rodapé */
+    padding: 0 1rem; /* Adiciona espaçamento interno nas laterais do conteúdo principal. */
+    visibility: hidden; /* Inicia com a lista de filmes oculta */
+    /* width: 100%; */
+}
+.watchlist-btn {
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+.watchlist-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px -2px hsla(45, 93%, 47%, 0.7);
+}
+article {
+    position: relative; /* Necessário para o posicionamento do pseudo-elemento ::before */
+    overflow: hidden; /* Garante que o ::before não vaze para fora das bordas arredondadas */
+    border-radius: 1rem; /* Bordas arredondadas */
+    padding: 1.5rem; /* Espaçamento interno */
+    margin-bottom: 1.25rem; /* Adiciona um espaço abaixo de cada artigo. */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra sutil */ 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+    border: 1px solid #3f3f46;
+    background-size: auto; /* Faz a imagem de fundo cobrir todo o card */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+article::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 24, 27, 0.7); /* Sobreposição escura com 70% de opacidade */
+    z-index: 1; /* Coloca a sobreposição acima da imagem de fundo */
+}
+
+article > * {
+    position: relative; /* Garante que todo o conteúdo do article fique acima da sobreposição */
+    z-index: 2;
+}
+article:hover {
+    transform: scale(1.01); /* Aumenta levemente o tamanho do artigo ao passar o mouse. */
+    cursor: pointer; /* Transforma o cursor em uma "mãozinha". */
+}
+
+article h2 {
+    margin-top: 0; /* Remove o espaço no topo do título do artigo. */
+    font-weight: 600; /* Define o peso da fonte como semi-negrito. */
+    font-size: 1.6rem; /* Define o tamanho da fonte do título. */
+    border-bottom: none; /* Remove a linha de borda inferior. */
+    padding-bottom: 0; /* Remove o espaçamento interno inferior. */
+    margin-bottom: 0.25rem; /* Adiciona um pequeno espaço abaixo do título. */
+    color: var(--primary-color); /* Define a cor do título. */
+}
+
+article p {
+    line-height: 1.5;
+    color: #F1F1F1;
+    padding: 6px 0;
+    /* margin: 0.5rem 0; Adiciona espaço acima e abaixo do parágrafo. */
+    /* line-height: 1.6; Aumenta o espaçamento entre as linhas para facilitar a leitura. */
+    font-size: 1rem; /* Define o tamanho da fonte do parágrafo. */
+    /* margin-bottom: 0.5rem; Adiciona um espaço abaixo do parágrafo. */
+    /* color: var(--secondary-color); Define a cor do texto. */
+}
+.tags_container {
+display: flex;
+align-items: flex-start;
+/* justify-content: flex-end; */
+/* padding-top: 1.6rem; */
+gap: 0.5rem;
+margin-top: 1rem;
+flex-wrap: wrap;
+}
+
+.tag {
+    background-color: var(--tertiary-color);
+    color: var(--bg-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+article p strong {
+    color: []dbdbdb; /* Define a cor para o texto em negrito. */
+    font-weight: 400; /* Define o peso da fonte como normal. */
+}
+
+article a {
+    color: var(--primary-color); /* Define a cor do link. */
+    text-decoration: none; /* Remove o sublinhado padrão dos links. */
+    font-weight: 200; /* Define o peso da fonte como extra-leve. */
+}
+
+article a:hover {
+    color: var(--secondary-color); /* Muda a cor do link no hover. */
+    text-decoration: underline; /* Adiciona um sublinhado quando o mouse passa sobre o link. */
+}
+
+.empty-list-message {
+    text-align: center;
+    padding: 4rem 2rem;
+    width: 100%;
+    color: var(--tertiary-color);
+}
+
+.empty-list-message h2 {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Estilos do Modal --- */
+
+.modal-overlay {
+    position: fixed; /* Fica fixo na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Fundo preto semi-transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Garante que fique acima de tudo */
+    opacity: 0; /* Começa invisível */
+    visibility: hidden; /* Começa oculto */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Animação suave */
+}
+
+.modal-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background: var(--bg-color);
+    border: 1px solid #3f3f46;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 600px; /* Largura máxima do modal */
+    max-height: 90vh; /* Altura máxima, para não ocupar a tela toda */
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo for muito grande */
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: scale(0.95); /* Começa um pouco menor */
+    transition: transform 0.3s ease; /* Animação de escala */
+}
+
+.modal-overlay.visible .modal {
+    transform: scale(1); /* Volta ao tamanho normal na entrada */
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--tertiary-color);
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.modal-close-btn:hover {
+    color: var(--primary-color);
+}
+
+.modal-content h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.modal-content p {
+    color: var(--secondary-color);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.modal-content .tags_container {
+    margin-top: 1.5rem;
+}
+
+.modal-content .modal-actions {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens nas extremidades */
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem; /* Aumenta o espaço acima dos botões */
+    flex-wrap: wrap;
+}
+
+.modal-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+.modal-content a:hover {
+    text-decoration: underline;
+}
+
+.modal-watch-btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.75rem; /* Borda um pouco menos arredondada */
+    border: none;
+    background-color: var(--primary-color);
+    color: #000000 !important; /* Garante que a cor preta seja aplicada */
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none; /* Garante que não tenha sublinhado */
+    display: inline-block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição mais suave */
+}
+
+.modal-watch-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px -4px hsla(45, 93%, 47%, 0.6); /* Sombra um pouco mais suave e elevada */
+    text-decoration: none !important; /* Garante a remoção do sublinhado no hover */
+}
+
+.footer {
+    width: 100%; /* Faz o rodapé ocupar 100% da largura. */
+    color: var(--tertiary-color); /* Define a cor do texto do rodapé. */
+    background-color: var(--bg-color); /* Define a cor de fundo do rodapé. */
+    padding: 15px 20px; /* Adiciona espaçamento interno. */
+    border-top: 1px solid #3c4043; /* Adiciona uma linha no topo do rodapé. */
+    font-size: 0.8rem; /* Define o tamanho da fonte do texto. */
+}
+
+.footer-location {
+    color: #9aa0a6; /* Define a cor do texto de localização. */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo. */
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores (bolinhas) da lista. */
+    display: flex; /* Ativa o modo de layout flexível. */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha se não houver espaço. */
+    justify-content: center; /* Centraliza os links horizontalmente. */
+    gap: 15px; /* Cria um espaçamento de 15px entre cada link. */
+}
+
+.footer-links a {
+    color: var(--secondary-color); /* Define a cor dos links. */
+    text-decoration: none; /* Remove o sublinhado dos links. */
+    transition: color 0.2s; /* Anima a mudança de cor do link. */
+}
+
+.footer-links a:hover {
+    color: var(--primary-color); /* Muda a cor do link quando o mouse passa sobre ele. */
+}
+
+@media (max-width: 768px) {
+    header { /* Aplica estes estilos quando a tela for menor que 768px. */
+        flex-direction: column; /* Empilha os itens do cabeçalho verticalmente. */
+        padding: 1rem; /* Reduz o espaçamento interno do cabeçalho. */
+    }
+
+    header h1 {
+        text-align: center; /* Centraliza o título. */
+        margin-bottom: 1rem; /* Adiciona espaço abaixo do título. */
+    }
+    input[type="text"] {
+    max-width: 200px;
+    }
+
+    div input {
+        width: 90vw; /* Faz o campo de busca ocupar 90% da largura da tela. */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte do campo. */
+    }
+
+    main {
+        padding: 0 1rem; /* Adiciona espaçamento nas laterais do conteúdo principal. */
+    }
+
+    article:hover {
+        transform: none; /* Remove o efeito de zoom ao passar o mouse em telas menores. */
+    }
+}
+@media (max-width: 480px) {
+    header h1 { /* Aplica estes estilos quando a tela for menor que 480px. */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte do título. */
+        max-width: 70%; /* Limita a largura máxima do título. */
+        word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha. */
+    }
+
+    div input,
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte do campo e do seu placeholder. */
+    }
+
+    article h2 {
+        font-size: 1.3rem; /* Reduz o tamanho da fonte dos títulos dos artigos. */
+    }
+
+    div {
+        display: flex; /* Ativa o modo flexível. */
+        align-items: center; /* Centraliza os itens verticalmente. */
+        justify-content: center; /* Centraliza os itens horizontalmente. */
+        flex-direction: column; /* Empilha os itens verticalmente. */
+        gap: 0.5rem; /* Adiciona um pequeno espaço entre os itens. */
+    }
+
+    .footer {
+        display: none; /* Oculta o rodapé em telas muito pequenas. */
+    }
+
+    button {
+        margin-top: 1rem; /* Adiciona um espaço acima do botão. */
+    }
+}

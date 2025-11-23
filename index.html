@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoWATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="capa.jpg">
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <h1>GoWATCH</h1>
+            <h2>Filmes e series de qualidade!</h2>
+        </div>
+    
+        <div class="search">
+            <input type="text" id="campo-busca" placeholder="Digite um filme/série ou gênero">
+            <button type="button" class="btn_header" id="botao-busca">Buscar</button>
+            <button type="button" class="btn_header" id="botao-watchlist">Lista de interesse</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card-container">
+            <!-- <article class="card">
+                <h2>JavaScript</h2>
+                <p>1995</p>
+                <p>JavaScript é uma linguagem de programação</p>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"target="_blank">Saiba mais</a>
+            </article> -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://github.com/EversonGomes0"
+                target="_blank">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/eversongomes0/?next=%2F"
+                target="_blank">Instagram</a>
+            </li>
+
+            <li>
+                <a href="www.linkedin.com/in/everson-gomes-0g"
+                target="_blank">Linkedln</a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Estrutura do Modal (começa oculta) -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div id="modal" class="modal">
+            <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+            <div id="modal-content" class="modal-content">
+                <!-- O conteúdo detalhado do item será inserido aqui -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

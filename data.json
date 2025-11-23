@@ -1,0 +1,466 @@
+[
+  {
+    "nome": "Carros",
+    "diretor": "John Lasseter",
+    "duracao/episodios": "1h 57min",
+    "descricao": "O astro das corridas, Relâmpago McQueen, se perde na cidade de Radiator Springs, onde aprende o verdadeiro significado de amizade e família.",
+    "data_criacao": "2006",
+    "link": "https://www.rottentomatoes.com/m/cars",
+    "watch_link": "https://www.disneyplus.com/",
+    "tags": [
+      "Animação",
+      "Aventura",
+      "Comédia"
+    ],
+    "imagem":"logos/carros2.jpg"
+  },
+  {
+    "nome": "O Poderoso Chefão",
+    "diretor": "Francis Ford Coppola",
+    "duracao/episodios": "2h 55min",
+    "descricao": "O patriarca de uma dinastia do crime organizado transfere o controle de seu império clandestino para seu filho relutante.",
+    "data_criacao": "1972",
+    "link": "https://www.rottentomatoes.com/m/the_godfather",
+    "watch_link": "https://www.starplus.com/",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Máfia"
+    ],
+    "imagem":"https://upload.wikimedia.org/wikipedia/commons/b/bb/The_Godfather.png"
+  },
+  {
+    "nome": "Breaking Bad",
+    "diretor": "Vince Gilligan",
+    "duracao/episodios": "62 episódios",
+    "descricao": "Um professor de química do ensino médio diagnosticado com câncer de pulmão inoperável passa a produzir e vender metanfetamina para garantir o futuro de sua família.",
+    "data_criacao": "2008",
+    "link": "https://www.rottentomatoes.com/tv/breaking_bad",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Z-wX0Q7y8rLsjsoWJlqzWgLFAxWGb4Rv4vhGLSrPc5oQfAzyp3VHpEg&s"
+  },
+  {
+    "nome": "Matrix",
+    "diretor": "Lana Wachowski, Lilly Wachowski",
+    "duracao/episodios": "2h 16min",
+    "descricao": "Um hacker descobre a verdade chocante sobre sua realidade e seu papel em uma guerra contra máquinas que controlam a humanidade.",
+    "data_criacao": "1999",
+    "link": "https://www.rottentomatoes.com/m/matrix",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Ação",
+      "Ficção Científica",
+      "Cyberpunk"
+    ],
+    "imagem":"logos/matriz.jpg"
+  },
+  {
+    "nome": "Interestelar",
+    "diretor": "Christopher Nolan",
+    "duracao/episodios": "2h 49min",
+    "descricao": "Uma equipe de exploradores viaja através de um buraco de minhoca no espaço em uma tentativa de garantir a sobrevivência da humanidade.",
+    "data_criacao": "2014",
+    "link": "https://www.rottentomatoes.com/m/interstellar_2014",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Aventura",
+      "Drama",
+      "Ficção Científica"
+    ],
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vBXTJaN8Ke5ai6ac6dZ7_Vmk5unvzMm1Ow&s"
+  },
+  {
+    "nome": "Stranger Things",
+    "diretor": "The Duffer Brothers",
+    "duracao/episodios": "34 episódios",
+    "descricao": "Quando um garoto desaparece, sua mãe, um chefe de polícia e seus amigos devem enfrentar forças sobrenaturais aterrorizantes para trazê-lo de volta.",
+    "data_criacao": "2016",
+    "link": "https://www.rottentomatoes.com/tv/stranger_things",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Drama",
+      "Fantasia",
+      "Terror"
+    ],
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stranger_Things_logo.png/1200px-Stranger_Things_logo.png"
+  },
+  {
+    "nome": "Pulp Fiction - Tempo de Violência",
+    "diretor": "Quentin Tarantino",
+    "duracao/episodios": "2h 34min",
+    "descricao": "As vidas de dois assassinos da máfia, um boxeador, a esposa de um gângster e um casal de assaltantes se entrelaçam em quatro contos de violência e redenção.",
+    "data_criacao": "1994",
+    "link": "https://www.rottentomatoes.com/m/pulp_fiction",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtNMGuEDPtnbmWe7Tf69yeJZoJze-YwyAevA&s"
+  },
+  {
+    "nome": "The Office",
+    "diretor": "Greg Daniels",
+    "duracao/episodios": "201 episódios",
+    "descricao": "Um documentário cômico sobre o dia a dia dos funcionários de um escritório da empresa de papel Dunder Mifflin, liderados pelo gerente regional Michael Scott.",
+    "data_criacao": "2005",
+    "link": "https://www.rottentomatoes.com/tv/the_office",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Comédia",
+      "Sitcom",
+      "Pseudodocumentário"
+    ],
+    "imagem": "logos/the_office.jpg"
+  },
+  {
+    "nome": "Parasita",
+    "diretor": "Bong Joon-ho",
+    "duracao/episodios": "2h 12min",
+    "descricao": "Toda a família de Ki-taek está desempregada, vivendo num porão sujo e apertado. Uma obra do acaso faz com que o filho adolescente da família comece a dar aulas de inglês à garota de uma família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe, filho e filha bolam um plano para se infiltrarem também na família burguesa.",
+    "data_criacao": "2019",
+    "link": "https://www.rottentomatoes.com/m/parasite_2019",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Suspense",
+      "Comédia",
+      "Drama"
+    ],
+    "imagem": "logos/parasita.png"
+  },
+  {
+    "nome": "Blade Runner 2049",
+    "diretor": "Denis Villeneuve",
+    "duracao/episodios": "2h 44min",
+    "descricao": "Um novo Blade Runner, o oficial da polícia de Los Angeles 'K', desenterra um segredo há muito tempo enterrado que tem o potencial de mergulhar o que resta da sociedade no caos.",
+    "data_criacao": "2017",
+    "link": "https://www.rottentomatoes.com/m/blade_runner_2049",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Ficção Científica",
+      "Ação",
+      "Neo-noir"
+    ],
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoXr8f_G3cv6MbVNtunIK0F_U1vioS-AI-Uw&s"
+  },
+  {
+    "nome": "Black Mirror",
+    "diretor": "Charlie Brooker",
+    "duracao/episodios": "27 episódios",
+    "descricao": "Uma série de antologia que explora um futuro próximo distorcido e tecnológico, onde as maiores inovações da humanidade colidem com seus instintos mais sombrios.",
+    "data_criacao": "2011",
+    "link": "https://www.rottentomatoes.com/tv/black_mirror",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Ficção Científica",
+      "Suspense",
+      "Drama"
+    ],
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gCPTM8BDQi-QJoG6Du70-GU1QRMWmSnQDA&s"
+  },
+  {
+    "nome": "A Chegada",
+    "diretor": "Denis Villeneuve",
+    "duracao/episodios": "1h 56min",
+    "descricao": "Quando naves espaciais misteriosas aterrissam em todo o mundo, uma linguista especialista é recrutada pelos militares para determinar se eles vêm em paz ou são uma ameaça.",
+    "data_criacao": "2016",
+    "link": "https://www.rottentomatoes.com/m/arrival_2016",
+    "watch_link": "https://www.starplus.com/",
+    "tags": [
+      "Ficção Científica",
+      "Drama",
+      "Mistério"
+    ],
+    "imagem": "logos/a_chegada.jpg"
+  },
+  {
+    "nome": "Batman: O Cavaleiro das Trevas",
+    "diretor": "Christopher Nolan",
+    "duracao/episodios": "2h 32min",
+    "descricao": "Quando a ameaça conhecida como Coringa emerge de seu passado misterioso, ele causa estragos e caos nas pessoas de Gotham. O Cavaleiro das Trevas deve aceitar um dos maiores testes psicológicos e físicos de sua capacidade de lutar contra a injustiça.",
+    "data_criacao": "2008",
+    "link": "https://www.rottentomatoes.com/m/the_dark_knight",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Ação",
+      "Super-Herói",
+      "Crime"
+    ],
+    "imagem": "logos/batman_o_cavaleiro_das_trevas.jpg"
+  },
+  {
+    "nome": "Game of Thrones",
+    "diretor": "David Benioff, D. B. Weiss",
+    "duracao/episodios": "73 episódios",
+    "descricao": "Nove famílias nobres lutam pelo controle das terras míticas de Westeros, enquanto um antigo inimigo retorna após estar adormecido por milênios.",
+    "data_criacao": "2011",
+    "link": "https://www.rottentomatoes.com/tv/game_of_thrones",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Fantasia",
+      "Drama",
+      "Aventura"
+    ],
+    "imagem": "logos/game_of_thrones.png"
+    
+  },
+  {
+    "nome": "Um Lugar Silencioso",
+    "diretor": "John Krasinski",
+    "duracao/episodios": "1h 30min",
+    "descricao": "Em um mundo pós-apocalíptico, uma família é forçada a viver em silêncio enquanto se esconde de monstros com audição ultrassensível.",
+    "data_criacao": "2018",
+    "link": "https://www.rottentomatoes.com/m/a_quiet_place_2018",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Terror",
+      "Suspense",
+      "Drama"
+    ],
+    "imagem": "logos/um_lugar_silencioso.jpg"
+  },
+  {
+    "nome": "Duna",
+    "diretor": "Denis Villeneuve",
+    "duracao/episodios": "2h 35min",
+    "descricao": "A jornada mítica e emocional de Paul Atreides, um jovem brilhante e talentoso nascido com um grande destino além de sua compreensão, que deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e de seu povo.",
+    "data_criacao": "2021",
+    "link": "https://www.rottentomatoes.com/m/dune_2021",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Ficção Científica",
+      "Aventura",
+      "Épico"
+    ],
+    "imagem": "logos/duna.jpg"
+  },
+  {
+    "nome": "Soul",
+    "diretor": "Pete Docter",
+    "duracao/episodios": "1h 40min",
+    "descricao": "Um músico que perdeu sua paixão pela música é transportado para fora de seu corpo e deve encontrar o caminho de volta com a ajuda de uma alma infantil aprendendo sobre si mesma.",
+    "data_criacao": "2020",
+    "link": "https://www.rottentomatoes.com/m/soul_2020",
+    "watch_link": "https://www.disneyplus.com/",
+    "tags": [
+      "Animação",
+      "Comédia",
+      "Família"
+    ],
+    "imagem": "logos/soul.png"
+  },
+  {
+    "nome": "The Crown",
+    "diretor": "Peter Morgan",
+    "duracao/episodios": "60 episódios",
+    "descricao": "Segue as rivalidades políticas e o romance do reinado da Rainha Elizabeth II e os eventos que moldaram a segunda metade do século XX.",
+    "data_criacao": "2016",
+    "link": "https://www.rottentomatoes.com/tv/the_crown",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Drama",
+      "História",
+      "Biográfico"
+    ],
+    "imagem": "logos/the_crown.jpg"
+  },
+  {
+    "nome": "Round 6",
+    "diretor": "Hwang Dong-hyuk",
+    "duracao/episodios": "9 episódios",
+    "descricao": "Centenas de jogadores com dificuldades financeiras aceitam um estranho convite para competir em jogos infantis. Um prêmio tentador os aguarda, mas as apostas são mortais.",
+    "data_criacao": "2021",
+    "link": "https://www.rottentomatoes.com/tv/squid_game",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Suspense",
+      "Sobrevivência",
+      "Drama"
+    ],
+    "imagem": "logos/squid_game.jpg"
+  },
+  {
+    "nome": "Pânico",
+    "diretor": "Wes Craven",
+    "duracao/episodios": "1h 51min",
+    "descricao": "Um ano após o assassinato de sua mãe, uma adolescente é aterrorizada por um novo assassino, que a persegue e a seus amigos usando um filme de terror como parte de um jogo mortal.",
+    "data_criacao": "1996",
+    "link": "https://www.rottentomatoes.com/m/1074339-scream",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Terror",
+      "Slasher",
+      "Mistério"
+    ],
+    "imagem": "logos/panico.jpg"
+  },
+  {
+    "nome": "Chernobyl",
+    "diretor": "Johan Renck",
+    "duracao/episodios": "5 episódios",
+    "descricao": "Em abril de 1986, uma explosão na usina nuclear de Chernobyl, na União Soviética, torna-se um dos piores desastres causados pelo homem na história.",
+    "data_criacao": "2019",
+    "link": "https://www.rottentomatoes.com/tv/chernobyl",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Drama",
+      "História",
+      "Minissérie"
+    ],
+    "imagem": "logos/Chernobyl.jpg"
+  },
+  {
+    "nome": "La La Land: Cantando Estações",
+    "diretor": "Damien Chazelle",
+    "duracao/episodios": "2h 8min",
+    "descricao": "Enquanto navegam por suas carreiras em Los Angeles, um pianista e uma atriz se apaixonam enquanto tentam conciliar suas aspirações com o relacionamento.",
+    "data_criacao": "2016",
+    "link": "https://www.rottentomatoes.com/m/la_la_land",
+    "watch_link": "https://www.starplus.com/",
+    "tags": [
+      "Comédia",
+      "Romance",
+      "Musical"
+    ],
+    "imagem": "logos/La La Land_Cantando Estações.jpg"
+  },
+  {
+    "nome": "Ex Machina: Instinto Artificial",
+    "diretor": "Alex Garland",
+    "duracao/episodios": "1h 48min",
+    "descricao": "Um jovem programador é selecionado para participar de um experimento inovador em inteligência artificial, avaliando as qualidades humanas de um robô humanoide altamente avançado.",
+    "data_criacao": "2014",
+    "link": "https://www.rottentomatoes.com/m/ex_machina",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Ficção Científica",
+      "Suspense",
+      "Psicológico"
+    ],
+    "imagem": "logos/ex_machina.jpg"
+  },
+  {
+    "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+    "diretor": "Peter Jackson",
+    "duracao/episodios": "2h 58min",
+    "descricao": "Um humilde Hobbit da Comarca e oito companheiros partem em uma jornada para destruir o poderoso Um Anel e salvar a Terra-média do Lorde das Trevas, Sauron.",
+    "data_criacao": "2001",
+    "link": "https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_fellowship_of_the_ring",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Fantasia",
+      "Aventura",
+      "Ação"
+    ],
+    "imagem": "logos/senhor_dos_aneis.png"
+  },
+  {
+    "nome": "Pacificador",
+    "diretor": "James Gunn",
+    "duracao/episodios": "8 episódios",
+    "descricao": "Recuperando-se dos eventos de 'O Esquadrão Suicida' (2021), Christopher Smith, o Pacificador, é forçado a se juntar a uma misteriosa equipe de operações secretas da A.R.G.U.S.",
+    "data_criacao": "2022",
+    "link": "https://www.rottentomatoes.com/tv/peacemaker",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Ação",
+      "Comédia",
+      "Super-Herói"
+    ],
+    "imagem": "logos/pacificador.jpg"
+  },
+  {
+    "nome": "Euphoria",
+    "diretor": "Sam Levinson",
+    "duracao/episodios": "16 episódios",
+    "descricao": "Um olhar sobre a vida de um grupo de estudantes do ensino médio enquanto eles lidam com questões de drogas, sexo e violência.",
+    "data_criacao": "2019",
+    "link": "https://www.rottentomatoes.com/tv/euphoria",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Drama",
+      "Adolescente"
+    ],
+    "imagem": "logos/euphoria.png"
+  },
+  {
+    "nome": "Django Livre",
+    "diretor": "Quentin Tarantino",
+    "duracao/episodios": "2h 45min",
+    "descricao": "Com a ajuda de um caçador de recompensas alemão, um escravo liberto parte para resgatar sua esposa de um brutal proprietário de uma plantação no Mississippi.",
+    "data_criacao": "2012",
+    "link": "https://www.rottentomatoes.com/m/django_unchained_2012",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Faroeste",
+      "Drama",
+      "Aventura"
+    ],
+    "imagem": "logos/Django Livre.png"
+  },
+  {
+    "nome": "Mindhunter",
+    "diretor": "Joe Penhall",
+    "duracao/episodios": "19 episódios",
+    "descricao": "No final dos anos 1970, dois agentes do FBI expandem a ciência criminal ao aprofundar-se na psicologia do assassinato, aproximando-se de monstros reais.",
+    "data_criacao": "2017",
+    "link": "https://www.rottentomatoes.com/tv/mindhunter",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Crime",
+      "Suspense",
+      "Drama"
+    ],
+    "imagem": "logos/Mindhunter.jpg"
+  },
+  {
+    "nome": "Rick and Morty",
+    "diretor": "Dan Harmon, Justin Roiland",
+    "duracao/episodios": "71 episódios",
+    "descricao": "As aventuras de um cientista genial e sociopata que arrasta seu neto tímido em perigosas e insanas aventuras pelo universo.",
+    "data_criacao": "2013",
+    "link": "https://www.rottentomatoes.com/tv/rick_and_morty",
+    "watch_link": "https://www.max.com/",
+    "tags": [
+      "Animação",
+      "Comédia",
+      "Ficção Científica"
+    ],
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/1200px-Rick_and_Morty.svg.png"
+  },
+  {
+    "nome": "Expresso do Amanhã",
+    "diretor": "Bong Joon-ho",
+    "duracao/episodios": "2h 6min",
+    "descricao": "Em um futuro onde um experimento fracassado para deter o aquecimento global mata a maior parte da vida na Terra, os poucos sobreviventes vivem em um trem gigante que viaja pelo globo.",
+    "data_criacao": "2013",
+    "link": "https://www.rottentomatoes.com/m/snowpiercer",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Ação",
+      "Ficção Científica",
+      "Distopia"
+    ],
+    "imagem": "logos/Expresso do Amanhã.jpg"
+  },
+  {
+    "nome": "A Rede Social",
+    "diretor": "David Fincher",
+    "duracao/episodios": "2h",
+    "descricao": "A história da criação do Facebook e as batalhas legais enfrentadas por seu fundador, Mark Zuckerberg.",
+    "data_criacao": "2010",
+    "link": "https://www.rottentomatoes.com/m/the-social-network",
+    "watch_link": "https://www.netflix.com/",
+    "tags": [
+      "Biográfico",
+      "Drama"
+    ],
+    "imagem": "logos/A Rede Social.jpg"
+  }
+]
